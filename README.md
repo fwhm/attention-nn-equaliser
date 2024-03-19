@@ -1,7 +1,7 @@
 ## NN-based nonlinear equaliser for coherent optical systems
 [Link](https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-18-32908&id=495566) to paper"Attention-aided partial bidirectional RNN-based nonlinear equalizer in coherent optical systems"
 
-Cite
+Cite 
 ```LaTeX
 @article{liu2022attention,
   title={Attention-aided partial bidirectional RNN-based nonlinear equalizer in coherent optical systems},
@@ -14,3 +14,7 @@ Cite
   publisher={Optica Publishing Group}
 }
 ```
+
+### License
+This source code is released under the MIT license, included [here](https://github.com/fwhm/attention-nn-equaliser/blob/main/LICENSE).
+
