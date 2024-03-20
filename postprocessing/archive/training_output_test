@@ -1,0 +1,18 @@
+----------- EPOCH 0 -----------
+Reference BER: 0.009843 Q-Factor: 7.36
+Train loss: 0.23581 BER: 0.2987 Q-Factor: -5.55
+Validation loss: 0.00787 BER: 0.0263 Q-Factor: 5.75
+----------- EPOCH 1 -----------
+Reference BER: 0.009843 Q-Factor: 7.36
+Train loss: 0.00672 BER: 0.0196 Q-Factor: 6.29
+Validation loss: 0.00601 BER: 0.0154 Q-Factor: 6.69
+----------- EPOCH 2 -----------
+Reference BER: 0.009843 Q-Factor: 7.3999
+Train loss: 0.00672 BER: 0.0196 Q-Factor: 6.999
+Validation loss: 0.00601 BER: 0.0154 Q-Factor: 6.999
+
+----------- EPOCH 903 -----------
+Reference BER: 0.009843 Q-Factor: 7.36
+Train loss: 0.00330 BER: 0.0047 Q-Factor: 8.29
+Validation loss: 0.00333 BER: 0.0047 Q-Factor: 8.30
+Test loss: 0.00339 BER: 0.0046 Q-Factor: 8.30

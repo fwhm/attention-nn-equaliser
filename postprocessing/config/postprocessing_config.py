@@ -1,0 +1,86 @@
+# CASE STRING
+RNN_CASE = 'rnn'
+PART_BRNN_CASE = 'partial_birnn'
+TRIM_RNN_OUT_CASE = 'trim_rnn'
+SIMPLE_ATTENTION_LAYER_CASE = 'simp_att_layer'
+RNN_IN_OUT_TAP_CASE = 'rnn_in_out_taps'
+POST_ATTENTION_LAYER_CASE = 'post_flat_att_layer'
+
+
+# TBD
+# SELF_ATTENTION
+# PRE_RNN_ATTENTION
+
+# OUTPUT ARGS_STRING
+
+RNN_BILSTM_8 = 'rnn_type_lstm_n_hiddens_08_n_layers_1_bidirectional_true_n_taps_20'
+RNN_BILSTM_16 = 'rnn_type_lstm_n_hiddens_16_n_layers_1_bidirectional_true_n_taps_20'
+RNN_BILSTM_32 = 'rnn_type_lstm_n_hiddens_32_n_layers_1_bidirectional_true_n_taps_20'
+RNN_LSTM_16 = 'rnn_type_lstm_n_hiddens_16_n_layers_1_bidirectional_false_n_taps_20'
+RNN_LSTM_32 = 'rnn_type_lstm_n_hiddens_32_n_layers_1_bidirectional_false_n_taps_20'
+RNN_LSTM_64 = 'rnn_type_lstm_n_hiddens_64_n_layers_1_bidirectional_false_n_taps_20'
+
+RNN_BIGRU_16 = 'rnn_type_gru_n_hiddens_16_n_layers_1_bidirectional_true_n_taps_20'
+RNN_BIGRU_32 = 'rnn_type_gru_n_hiddens_32_n_layers_1_bidirectional_true_n_taps_20'
+
+RNN_BILSTM_21 = 'rnn_type_lstm_n_hiddens_21_bidirectional_true'
+RNN_BIGRU_24 = 'rnn_type_gru_n_hiddens_24_bidirectional_true'
+
+
+PART_BILSTM_32_FW_3_BW_3 = 'partial_rnn_type_lstm_n_hiddens_32_bidirectional_true_fw_id_3_bw_id_-3'
+PART_BIGRU_32_FW_3_BW_3 = 'partial_rnn_type_gru_n_hiddens_32_bidirectional_true_fw_id_3_bw_id_-3_trim_false'
+PART_BIGRU_32_FW_3_BW_3_TRIM = 'partial_rnn_type_gru_n_hiddens_32_bidirectional_true_fw_id_3_bw_id_-3_trim_true'
+PART_BIGRU_42_FW_3_BW_3_TRIM = 'partial_rnn_type_gru_n_hiddens_42_bidirectional_true_fw_id_3_bw_id_-3_trim_true'
+PART_BIGRU_49_FW_3_BW_3_TRIM = 'partial_rnn_type_gru_n_hiddens_49_bidirectional_true_fw_id_3_bw_id_-3_trim_true'
+
+
+TRIM_RNN_TTAP1_BILSTM16 = 'trim_out_tap_1_rnn_type_lstm_n_hiddens_16_bidirectional_true_n_taps_20'
+TRIM_RNN_TTAP2_BILSTM16 = 'trim_out_tap_2_rnn_type_lstm_n_hiddens_16_bidirectional_true_n_taps_20'
+TRIM_RNN_TTAP1_BILSTM32 = 'trim_out_tap_1_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+TRIM_RNN_TTAP2_BILSTM32 = 'trim_out_tap_2_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+TRIM_RNN_TTAP3_BIGRU32 = 'trim_true_trim_out_tap_3_rnn_type_gru_n_hiddens_32_bidirectional_true_n_taps_20'
+
+
+ATTENTION_BILSTM_8 = 'att_rnn_type_lstm_n_hiddens_08_n_layers_1_bidirectional_true_n_taps_20'
+ATTENTION_BILSTM_16 = 'att_rnn_type_lstm_n_hiddens_16_n_layers_1_bidirectional_true_n_taps_20'
+ATTENTION_BILSTM_32 = 'att_rnn_type_lstm_n_hiddens_32_n_layers_1_bidirectional_true_n_taps_20'
+ATTENTION_LSTM_16 = 'att_rnn_type_lstm_n_hiddens_16_n_layers_1_bidirectional_false_n_taps_20'
+ATTENTION_LSTM_32 = 'att_rnn_type_lstm_n_hiddens_32_n_layers_1_bidirectional_false_n_taps_20'
+ATTENTION_LSTM_64 = 'att_rnn_type_lstm_n_hiddens_64_n_layers_1_bidirectional_false_n_taps_20'
+
+ATTENTION_BIGRU_16 = 'att_rnn_type_gru_n_hiddens_16_n_layers_1_bidirectional_true_n_taps_20'
+ATTENTION_BIGRU_32 = 'att_rnn_type_gru_n_hiddens_32_n_layers_1_bidirectional_true_n_taps_20'
+ATTENTION_BIGRU_UNPACK_16 = 'att_rnn_type_gru_n_hiddens_16_unpack_bidir_true'
+
+
+RNN_IN__1_2_OUT__1_2_BILSTM_32 = \
+    'in_tap_ids_[-1:2]_out_tap_ids_[-1:2]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_IN__3_3_OUT__1_2_BILSTM_32 = \
+    'in_tap_ids_[-3:3]_out_tap_ids_[-1:2]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_OUT__1_2_BILSTM_32 = \
+    'in_tap_ids_[-20:20]_out_tap_ids_[-1:2]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_OUT__2_3_BILSTM_32 = \
+    'in_tap_ids_[-20:20]_out_tap_ids_[-2:3]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_OUT__2_2_BILSTM_32 = \
+    'in_tap_ids_[-20:20]_out_tap_ids_[-2:2]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_IN__5_5_OUT__5_5_BILSTM_32 = \
+    'in_tap_ids_[-5:5]_out_tap_ids_[-5:5]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_OUT__5_5_BILSTM_32 = \
+    'in_tap_ids_[-20:20]_out_tap_ids_[-5:5]_rnn_type_lstm_n_hiddens_32_bidirectional_true_n_taps_20'
+# Default in as [-20:20]
+
+
+RNN_OUT__5_5_BIGRU_32 = \
+    'in_tap_ids_[-20:20]_out_tap_ids_[-5:5]_rnn_type_gru_n_hiddens_32_bidirectional_true_n_taps_20'
+RNN_OUT__3_3_BIGRU_32 = \
+    'in_tap_ids_[-20:20]_out_tap_ids_[-3:3]_rnn_type_gru_n_hiddens_32_bidirectional_true_n_taps_20'
+
+
+POST_ATTENTION_BILSTM_8 = 'post_att_rnn_type_lstm_n_hiddens_8_n_layers_1_bidirectional_true_n_taps_20'
+POST_ATTENTION_BILSTM_16 = 'post_att_rnn_type_lstm_n_hiddens_16_n_layers_1_bidirectional_true_n_taps_20'
+POST_ATTENTION_BILSTM_32 = 'post_att_rnn_type_lstm_n_hiddens_32_n_layers_1_bidirectional_true_n_taps_20'
+POST_ATTENTION_LSTM_16 = 'post_att_rnn_type_lstm_n_hiddens_16_n_layers_1_bidirectional_false_n_taps_20'
+POST_ATTENTION_LSTM_32 = 'post_att_rnn_type_lstm_n_hiddens_32_n_layers_1_bidirectional_false_n_taps_20'
+POST_ATTENTION_LSTM_64 = 'post_att_rnn_type_lstm_n_hiddens_64_n_layers_1_bidirectional_false_n_taps_20'
+
+
